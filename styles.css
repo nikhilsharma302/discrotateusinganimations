@@ -1,0 +1,33 @@
+body {display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    text-align:center;
+      background-color: lightblue;
+    }
+    div{ display:flex;
+    align-items:center;
+    justify-content:center;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color:red;
+    }
+     #h1:hover{
+    color:white;
+    animation:rotate 10s infinite linear;
+    }
+    @keyframes rotate
+    {
+    50%{
+    transform:rotate(360deg) scale(4);
+    color:white;
+    }
+    100%{
+    background-color:white;
+    transform: rotate(720deg) scale(1);
+    color:red;
+    }
+    }
+   
